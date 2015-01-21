@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+.color-pair-picker-wrap {
+  margin: 5px;
+  width: 100px;
+  left: 10px;
+  float: left;
+  font-size: 12px;
+  font-family: "Helvetica Neue", Helvetica, Arial, freesans, sans-serif;
+}
+
+.color-pair-picker-wrap .pickers {
+  position: relative;
+  height: 40px;
+}
+
+.color-pair-picker-wrap label {
+  text-align: center;
+  margin: 0;
+  display: inline-block;
+}
+
+.color-pair-picker-wrap .sp-replacer {
+  border: none;
+  padding: 2px;
+}
+
+.color-pair-picker-wrap .sp-dd {
+  display: none;
+}
+
+.color-pair-picker-wrap .sp-preview {
+  margin-right: 0;
+  border: none;
+  width: 25px;
+  height: 20px;
+}
+
+.color-pair-picker-wrap .foreground + .sp-replacer, .color-pair-picker-wrap .background + .sp-replacer {
+  position: absolute;
+}
+
+.color-pair-picker-wrap .foreground + .sp-replacer {
+  top: 0;
+  left: 20px;
+  z-index: 999;
+}
+
+.color-pair-picker-wrap .background + .sp-replacer {
+  top: 13px;
+  left: 32px;
+  z-index: 599;
+}
+
+.color-pair-picker-wrap span {
+  padding-right: 2px;
+}
+
+.color-pair-picker-wrap span:before {
+  display: inline-block;
+}
+
+.color-pair-picker-wrap span.success:before {
+  content: '✔';
+}
+
+.color-pair-picker-wrap span.warning:before {
+  content: '⚠';
+}
+
+.color-pair-picker-wrap span.cross:before {
+  content: '✘';
+}
