@@ -2,8 +2,8 @@
 A color pair picker with a11y guidelines.
 
 ## Dependencies
-* [spectrum.js](http://tooltipsy.com/)
-* [tooltipsy.js](https://bgrins.github.io/spectrum/)
+* [spectrum.js](https://bgrins.github.io/spectrum/)
+* [tooltipsy.js](http://tooltipsy.com/)
 
 ## Usage
 1. Include spectrum.js, spectrum.css, tooltips.js, color-pair-picker.js and color-pair-picker.css in your html.
